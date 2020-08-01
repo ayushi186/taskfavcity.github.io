@@ -1,0 +1,58 @@
+body {
+  background-color: lightskyblue;
+}
+
+body.dark {
+  background-color: black;
+  color: black;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cors {
+  flex: 2;
+
+  justify-content: center;
+  background-color: lightgray;
+  padding: 10px;
+}
+#about {
+  flex: 1;
+  background-color: lightgray;
+  padding: 10px;
+  text-align: justify;
+}
+
+#about > h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#landmarks {
+  align-content: flex-start;
+}
+#dark {
+  height: 50px;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  background-color: lightskyblue;
+  margin-left: 50%;
+}
+#dark:hover {
+  background-color: #4caf50;
+  color: white;
+}
+#previous,
+#next {
+  height: 50px;
+  border-radius: 6px;
+  background-color: lightskyblue;
+}
