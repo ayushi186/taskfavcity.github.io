@@ -1,2 +1,2 @@
 # taskfavcity.github.io
-favorite city corousel task
+favorite city corousel task - Generation Assignment
